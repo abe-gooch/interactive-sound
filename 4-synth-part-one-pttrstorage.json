@@ -1,0 +1,67 @@
+{
+    "pattrstorage": {
+        "name": "4-synth-part-one-pttrstorage",
+        "slots": {
+            "1": {
+                "id": 1,
+                "data": {
+                    "attack": [ 26 ],
+                    "cycle-gain": [ 75 ],
+                    "decay": [ 2894 ],
+                    "freq-cutoff": [ 706 ],
+                    "live.gain~": [ 0.0 ],
+                    "rect-gain": [ 117 ],
+                    "rect-pwm": [ 204 ],
+                    "release": [ 1431 ],
+                    "render-toggle": [ 1 ],
+                    "resonance": [ 0.08 ],
+                    "saw-gain": [ 110 ],
+                    "shape": [ "shape", "torus" ],
+                    "sustain": [ 0.84 ],
+                    "tri-gain": [ 100 ],
+                    "tri-pwm": [ 286 ]
+                }
+            },
+            "2": {
+                "id": 2,
+                "data": {
+                    "attack": [ 651 ],
+                    "cycle-gain": [ 122 ],
+                    "decay": [ 2679 ],
+                    "freq-cutoff": [ 706 ],
+                    "live.gain~": [ 0.0 ],
+                    "rect-gain": [ 117 ],
+                    "rect-pwm": [ 174 ],
+                    "release": [ 313 ],
+                    "render-toggle": [ 1 ],
+                    "resonance": [ 0.8 ],
+                    "saw-gain": [ 104 ],
+                    "shape": [ "shape", "capsule" ],
+                    "sustain": [ 0.5 ],
+                    "tri-gain": [ 67 ],
+                    "tri-pwm": [ 550 ]
+                }
+            },
+            "3": {
+                "id": 3,
+                "data": {
+                    "attack": [ 21 ],
+                    "cycle-gain": [ 70 ],
+                    "decay": [ 3867 ],
+                    "freq-cutoff": [ 642 ],
+                    "live.gain~": [ 0.0 ],
+                    "rect-gain": [ 136 ],
+                    "rect-pwm": [ 174 ],
+                    "release": [ 1235 ],
+                    "render-toggle": [ 1 ],
+                    "resonance": [ 0.1 ],
+                    "saw-gain": [ 65 ],
+                    "shape": [ "shape", "cylinder" ],
+                    "sustain": [ 0.629 ],
+                    "tri-gain": [ 45 ],
+                    "tri-pwm": [ 550 ]
+                }
+            }
+        }
+    }
+}
