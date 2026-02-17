@@ -1,0 +1,61 @@
+{
+    "pattrstorage": {
+        "name": "05-song-sequencing-storage",
+        "slots": {
+            "1": {
+                "id": 1,
+                "data": {
+                    "attack": [ 751 ],
+                    "cycle-gain": [ 1 ],
+                    "decay": [ 465 ],
+                    "live.gain~": [ -2.2105263157894655 ],
+                    "note-sequence": [ "68 72 75 80 -1 80 -1 80 -1 80 79 80 75 72 75 74 73 72 71 70 -1 68" ],
+                    "num-notes": [ 23 ],
+                    "rect-gain": [ 0 ],
+                    "release": [ 117 ],
+                    "saw-gain1": [ 118 ],
+                    "saw-gain2": [ 98 ],
+                    "sequence-rhythms": [ "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 4" ],
+                    "sustain-gain": [ 0.783 ],
+                    "tempo-input": [ 264 ]
+                }
+            },
+            "2": {
+                "id": 2,
+                "data": {
+                    "attack": [ 751 ],
+                    "cycle-gain": [ 121 ],
+                    "decay": [ 465 ],
+                    "live.gain~": [ -2.2105263157894655 ],
+                    "note-sequence": [ "71 74 74 71 69 66 71 74 74 71 69 71 74 74 71 69 66 62 64 66 64 64 62 64" ],
+                    "num-notes": [ 24 ],
+                    "rect-gain": [ 78 ],
+                    "release": [ 117 ],
+                    "saw-gain1": [ 52 ],
+                    "saw-gain2": [ 48 ],
+                    "sequence-rhythms": [ "2 1 2 1 3 3 2 1 2 1 6 2 1 2 1 2 1 2 1 2 1 2 1 6" ],
+                    "sustain-gain": [ 0.783 ],
+                    "tempo-input": [ 387 ]
+                }
+            },
+            "3": {
+                "id": 3,
+                "data": {
+                    "attack": [ 751 ],
+                    "cycle-gain": [ 102 ],
+                    "decay": [ 465 ],
+                    "live.gain~": [ -2.2105263157894655 ],
+                    "note-sequence": [ "69 74 69 74 76 73 69 73 74 71 69 69 67 67 66 64 62 74 69 74 76 73 69 73 74 71 69 69 67 67 66 64 62" ],
+                    "num-notes": [ 35 ],
+                    "rect-gain": [ 114 ],
+                    "release": [ 117 ],
+                    "saw-gain1": [ 70 ],
+                    "saw-gain2": [ 48 ],
+                    "sequence-rhythms": [ "1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 " ],
+                    "sustain-gain": [ 0.783 ],
+                    "tempo-input": [ 312 ]
+                }
+            }
+        }
+    }
+}
