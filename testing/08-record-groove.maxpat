@@ -13,6 +13,18 @@
         "boxes": [
             {
                 "box": {
+                    "id": "obj-273",
+                    "linecount": 2,
+                    "maxclass": "comment",
+                    "numinlets": 1,
+                    "numoutlets": 0,
+                    "patching_rect": [ 1235.0, 439.0, 150.0, 34.0 ],
+                    "presentation_linecount": 2,
+                    "text": "timeshift must be enabled to change pitch"
+                }
+            },
+            {
+                "box": {
                     "id": "obj-108",
                     "maxclass": "comment",
                     "numinlets": 1,
@@ -934,6 +946,18 @@
                     "parameter_enable": 0,
                     "patching_rect": [ 468.0, 200.0, 150.0, 22.0 ]
                 }
+            },
+            {
+                "box": {
+                    "attr": "timestretch",
+                    "id": "obj-6",
+                    "maxclass": "attrui",
+                    "numinlets": 1,
+                    "numoutlets": 1,
+                    "outlettype": [ "" ],
+                    "parameter_enable": 0,
+                    "patching_rect": [ 1083.0, 439.0, 150.0, 22.0 ]
+                }
             }
         ],
         "lines": [
@@ -1159,6 +1183,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-74", 0 ],
+                    "source": [ "obj-6", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-12", 0 ],
                     "midpoints": [ 53.5, 374.0, 37.5, 374.0 ],
                     "source": [ "obj-62", 0 ]
@@ -1319,14 +1349,6 @@
         ],
         "parameters": {
             "obj-26": [ "number[9]", "number", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "inherited_shortname": 1
         },
         "autosave": 0
