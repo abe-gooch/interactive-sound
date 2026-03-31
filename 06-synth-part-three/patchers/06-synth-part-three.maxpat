@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 231.0, 84.0, 1075.0, 787.0 ],
+        "rect": [ 362.0, 95.0, 1075.0, 787.0 ],
         "boxes": [
             {
                 "box": {
@@ -23,7 +23,7 @@
                     "patching_rect": [ 1504.8193327188492, 725.5546353388859, 100.0, 129.56989247311827 ],
                     "pic": "carved-headv2.png",
                     "presentation": 1,
-                    "presentation_rect": [ 56.24999785423279, 599.5824271568584, 116.0, 150.3010752688172 ]
+                    "presentation_rect": [ 56.24999785423279, 599.5824271568584, 115.99999999999999, 150.3010752688172 ]
                 }
             },
             {
@@ -49,7 +49,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 865.0, 482.0, 204.0, 21.0 ],
+                    "patching_rect": [ 644.0, 1090.0, 204.0, 21.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 863.6666331291199, 483.0, 144.0, 21.0 ],
                     "text": "Resonance",
@@ -64,7 +64,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 85.0, 498.0, 204.0, 21.0 ],
+                    "patching_rect": [ 467.8976106643677, 1090.0, 204.0, 21.0 ],
                     "presentation": 1,
                     "presentation_rect": [ 37.0, 483.0, 144.0, 21.0 ],
                     "text": "Frequency Cutoff",
@@ -575,8 +575,8 @@
                     "activebgcolor": [ 0.6862745098039216, 0.6274509803921569, 0.5294117647058824, 1.0 ],
                     "activelinecolor": [ 0.611764705882353, 0.8431372549019608, 0.796078431372549, 1.0 ],
                     "activeslopehandlecolor": [ 0.8117647058823529, 0.2196078431372549, 0.16470588235294117, 1.0 ],
-                    "attack_time": 31.0,
-                    "decay_time": 445.0,
+                    "attack_time": 600.0,
+                    "decay_time": 100.0,
                     "hint": "Edit the ADSR by dragging points",
                     "id": "obj-99",
                     "maxclass": "live.adsrui",
@@ -586,8 +586,8 @@
                     "patching_rect": [ 737.3494248390198, 923.2811576128006, 298.34803325060767, 100.66666722297668 ],
                     "presentation": 1,
                     "presentation_rect": [ 603.7991917133331, 603.614480137825, 208.0, 86.0 ],
-                    "release_time": 521.0,
-                    "sustain": 0.92,
+                    "release_time": 1000.0,
+                    "sustain": 0.5,
                     "varname": "live-adsr"
                 }
             },
@@ -1097,7 +1097,7 @@
                         "counter-default": [ 0 ],
                         "cycle-dial": [ 24.00000000000017 ],
                         "cycle-dial[2]": [ 0.0 ],
-                        "cycle-gain1": [ 104 ],
+                        "cycle-gain1": [ 24 ],
                         "decay": [ 445 ],
                         "freq-cutoff": [ 326 ],
                         "live.gain~": [ -1.026618761488706 ],
@@ -1105,19 +1105,19 @@
                         "num-notes[1]": [ 14 ],
                         "pwm-rect1": [ 33 ],
                         "rect-dial": [ 0.0 ],
-                        "rect-gain1": [ 124 ],
+                        "rect-gain1": [ 0 ],
                         "release": [ 521 ],
                         "resonance": [ 0.93 ],
                         "saw-gain2": [ 55 ],
                         "saw1-dial": [ 0.0 ],
                         "saw2-detune-cents": [ 0 ],
                         "saw2-dial": [ 44.000000000000014 ],
-                        "saw=gain1": [ 63 ],
+                        "saw=gain1": [ 0 ],
                         "song-sequence-te": [ "60 6 65 2 65 4 67 4 65 2 63 2 58 4 41 8 60 4 60 3 58 1 60 6 62 2 63 2 67 2 65 2 62 2 60 4" ],
                         "sustain-gain": [ 0.92 ],
                         "tempo(ms)": [ 151 ],
                         "toggle": [ 0 ],
-                        "tri-gain1": [ 56 ]
+                        "tri-gain1": [ 0 ]
                     },
                     "text": "autopattr",
                     "varname": "u663000641"
@@ -2974,6 +2974,14 @@
             "obj-3": [ "flonum[1]", "flonum", 0 ],
             "obj-4": [ "toggle", "toggle", 0 ],
             "obj-73": [ "number[6]", "number[2]", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "inherited_shortname": 1
         },
         "parameter_map": {
