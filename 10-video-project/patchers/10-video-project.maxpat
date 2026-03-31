@@ -9,7 +9,8 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 420.0, 84.0, 1079.0, 802.0 ],
+        "rect": [ 448.0, 153.0, 1079.0, 802.0 ],
+        "openinpresentation": 1,
         "default_fontface": 1,
         "boxes": [
             {
@@ -4695,6 +4696,14 @@
             "obj-80::obj-92": [ "Rotation", "Rotation", 0 ],
             "obj-82::obj-20": [ "letterbox_menu[1]", "letterbox_menu", 0 ],
             "obj-82::obj-37": [ "aspect_menu[1]", "aspect_menu", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
             "parameter_overrides": {
                 "obj-162::obj-4::obj-20": {
                     "parameter_longname": "live.tab[2]"
