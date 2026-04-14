@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 448.0, 153.0, 1079.0, 802.0 ],
+        "rect": [ 34.0, 77.0, 1639.0, 802.0 ],
         "openinpresentation": 1,
         "default_fontface": 1,
         "boxes": [
@@ -249,8 +249,8 @@
                     "numoutlets": 0,
                     "patching_rect": [ 2285.0, 971.7233972549438, 150.0, 48.0 ],
                     "presentation": 1,
-                    "presentation_linecount": 3,
-                    "presentation_rect": [ 1026.0, 533.3333129882812, 210.0, 48.0 ],
+                    "presentation_linecount": 2,
+                    "presentation_rect": [ 1026.0, 533.3333129882812, 220.0, 34.0 ],
                     "text": "# cents pitch is bent \n  (controlled by y movement of color)"
                 }
             },
@@ -1996,7 +1996,7 @@
                     "patching_rect": [ 38.23077964782715, 18.46154022216797, 56.0, 36.0 ],
                     "restore": {
                         "number[1]": [ 0.0 ],
-                        "play-gain": [ 120 ]
+                        "play-gain": [ 36 ]
                     },
                     "text": "autopattr",
                     "varname": "u647009083"
@@ -4696,14 +4696,6 @@
             "obj-80::obj-92": [ "Rotation", "Rotation", 0 ],
             "obj-82::obj-20": [ "letterbox_menu[1]", "letterbox_menu", 0 ],
             "obj-82::obj-37": [ "aspect_menu[1]", "aspect_menu", 0 ],
-            "parameterbanks": {
-                "0": {
-                    "index": 0,
-                    "name": "",
-                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
-                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
-                }
-            },
             "parameter_overrides": {
                 "obj-162::obj-4::obj-20": {
                     "parameter_longname": "live.tab[2]"
