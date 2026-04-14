@@ -9,7 +9,7 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 619.0, 141.0, 680.0, 730.0 ],
+        "rect": [ 34.0, 77.0, 1319.0, 802.0 ],
         "boxes": [
             {
                 "box": {
@@ -19,7 +19,7 @@
                     "numoutlets": 1,
                     "outlettype": [ "" ],
                     "patching_rect": [ 18.0, 196.0, 50.0, 22.0 ],
-                    "text": "10"
+                    "text": "48"
                 }
             },
             {
@@ -29,7 +29,7 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 432.0, 473.0, 178.0, 34.0 ],
+                    "patching_rect": [ 432.0, 473.0, 180.0, 34.0 ],
                     "text": "further distances = higher pitch, and louder volume"
                 }
             },
@@ -74,7 +74,7 @@
                     "numoutlets": 2,
                     "outlettype": [ "", "bang" ],
                     "parameter_enable": 0,
-                    "patching_rect": [ 119.0, 486.0, 69.0, 22.0 ]
+                    "patching_rect": [ 118.0, 487.0, 69.0, 22.0 ]
                 }
             },
             {
@@ -83,35 +83,32 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 2,
-                    "outlettype": [ "int", "int" ],
-                    "patching_rect": [ 127.0, 435.0, 153.0, 22.0 ],
-                    "text": "unpack i i"
+                    "outlettype": [ "float", "float" ],
+                    "patching_rect": [ 127.0, 435.0, 61.0, 22.0 ],
+                    "text": "unpack f f"
                 }
             },
             {
                 "box": {
                     "id": "obj-73",
-                    "linecount": 7,
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 26.0, 539.0, 77.89831066131592, 105.0 ],
-                    "presentation_linecount": 7,
-                    "text": "20. 16.62 20. 16.29 20. 16.29 20. 20. 20. 20. 20. 20. 20. 20. 20. 20. 20."
+                    "patching_rect": [ 26.0, 539.0, 62.0, 22.0 ],
+                    "text": "20. 20."
                 }
             },
             {
                 "box": {
                     "id": "obj-74",
-                    "linecount": 9,
+                    "linecount": 2,
                     "maxclass": "message",
                     "numinlets": 2,
                     "numoutlets": 1,
                     "outlettype": [ "" ],
-                    "patching_rect": [ 21.898305892944336, 335.0, 74.0, 133.0 ],
-                    "presentation_linecount": 9,
-                    "text": "\"20.00\r16.62 20.00\r16.29 20.00\r16.29 20.00\r20.00 20.00\r20.00 20.00\r20.00 20.00\r20.00 20.00\r20.00 20.0\""
+                    "patching_rect": [ 21.898305892944336, 335.0, 74.0, 36.0 ],
+                    "text": "\"20.00 20.00\""
                 }
             },
             {
@@ -140,18 +137,19 @@
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 208.0, 278.0, 251.0, 20.0 ],
+                    "patching_rect": [ 207.0, 284.0, 251.0, 20.0 ],
                     "text": "group messages together 100 arbitrary/large"
                 }
             },
             {
                 "box": {
                     "id": "obj-78",
+                    "linecount": 2,
                     "maxclass": "comment",
                     "numinlets": 1,
                     "numoutlets": 0,
-                    "patching_rect": [ 188.0, 242.0, 212.0, 20.0 ],
-                    "text": "look for new line characters"
+                    "patching_rect": [ 186.0, 236.0, 212.0, 34.0 ],
+                    "text": "look for new line characters  (uses ascii or smth to find the character /n?)"
                 }
             },
             {
@@ -194,8 +192,8 @@
                     "numinlets": 3,
                     "numoutlets": 3,
                     "outlettype": [ "bang", "bang", "" ],
-                    "patching_rect": [ 117.0, 242.0, 56.0, 22.0 ],
-                    "text": "sel 11 10"
+                    "patching_rect": [ 117.0, 242.0, 57.0, 22.0 ],
+                    "text": "sel 13 10"
                 }
             },
             {
