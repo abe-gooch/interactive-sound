@@ -2,7 +2,7 @@
     "name": "15-thereminoForMax",
     "version": 1,
     "creationdate": 3859596123,
-    "modificationdate": 3859596859,
+    "modificationdate": 3859603391,
     "viewrect": [ 25.0, 107.0, 300.0, 500.0 ],
     "autoorganize": 1,
     "hideprojectwindow": 0,
@@ -21,7 +21,8 @@
                 "kind": "imagefile",
                 "local": 1
             }
-        }
+        },
+        "data": {        }
     },
     "layout": {    },
     "searchpath": {    },
