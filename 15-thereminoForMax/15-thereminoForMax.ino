@@ -2,13 +2,14 @@
  * Theremino Project Hub Example: https://projecthub.arduino.cc/tdelatorre/theremino-a-theremin-made-with-arduino-3e661f 
  */
 
-#define MAX_DISTANCE  20
+#define MAX_PITCH_DISTANCE  30
+#define MAX_VOL_DISTANCE 20
 
 
-int pitchEcho = 3;
-int pitchTrigger = 4;
-int volEcho = 5;
-int volTrigger = 6;
+int pitchEcho = 5;
+int pitchTrigger = 6; 
+int volEcho = 3;
+int volTrigger = 4;
 
 float pitchDuration, pitchDistance, volumeDuration, volumeDistance;
 
@@ -28,7 +29,7 @@ void loop() {
   digitalWrite(pitchTrigger, LOW);   
   pitchDuration = pulseIn(pitchEcho,  HIGH);  // records how long it took to receive echo of the pulse
   pitchDistance = (pitchDuration*.0343)/2;
-  if(pitchDistance > MAX_DISTANCE){pitchDistance = MAX_DISTANCE;}
+  if(pitchDistance > MAX_PITCH_DISTANCE){pitchDistance = MAX_PITCH_DISTANCE;}
 
   // VOLUME
   digitalWrite(volTrigger, HIGH);   
@@ -36,7 +37,7 @@ void loop() {
   digitalWrite(volTrigger, LOW);                  
   volumeDuration = pulseIn(volEcho,  HIGH);
   volumeDistance = (volumeDuration*.0343)/2;
-  if(volumeDistance > MAX_DISTANCE){volumeDistance = MAX_DISTANCE;}
+  if(volumeDistance > MAX_VOL_DISTANCE){volumeDistance = MAX_VOL_DISTANCE;}
 
   Serial.print(pitchDistance);
   Serial.print(" ");
