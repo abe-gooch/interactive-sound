@@ -9,18 +9,39 @@
             "modernui": 1
         },
         "classnamespace": "box",
-        "rect": [ 111.0, 50.0, 996.0, 821.0 ],
+        "rect": [ 34.0, 43.0, 1319.0, 836.0 ],
         "openinpresentation": 1,
         "toolbars_unpinned_last_save": 2,
         "boxes": [
             {
                 "box": {
-                    "id": "obj-97",
-                    "maxclass": "newobj",
+                    "activedialcolor": [ 0.8117647058823529, 0.2196078431372549, 0.16470588235294117, 1.0 ],
+                    "annotation": "",
+                    "appearance": 3,
+                    "id": "obj-21",
+                    "maxclass": "live.dial",
                     "numinlets": 1,
-                    "numoutlets": 0,
-                    "patching_rect": [ 606.0, 115.0, 32.0, 22.0 ],
-                    "text": "print"
+                    "numoutlets": 2,
+                    "outlettype": [ "", "float" ],
+                    "parameter_enable": 1,
+                    "patching_rect": [ 1211.0, 443.3154950737953, 50.0, 63.0 ],
+                    "presentation": 1,
+                    "presentation_rect": [ 617.4888100326061, 644.3946405351162, 50.0, 63.0 ],
+                    "saved_attribute_attributes": {
+                        "activedialcolor": {
+                            "expression": ""
+                        },
+                        "valueof": {
+                            "parameter_longname": "live.dial",
+                            "parameter_mmax": 6.0,
+                            "parameter_mmin": -70.0,
+                            "parameter_modmode": 3,
+                            "parameter_shortname": ".",
+                            "parameter_type": 0,
+                            "parameter_unitstyle": 0
+                        }
+                    },
+                    "varname": "live.dial"
                 }
             },
             {
@@ -177,7 +198,7 @@
                     "presentation": 1,
                     "presentation_linecount": 8,
                     "presentation_rect": [ 74.0, 128.0, 372.0, 152.0 ],
-                    "text": "Arduino Theremin for Max\n\n\nUse your hands or some flat object that the distance sensors can read.\n\n\nFurther away = higher pitch and louder volume.",
+                    "text": "Arduino Theremin for Max\n\n\nUse your hands or some flat object that the distance sensors can read\n\n\nFurther away = higher pitch and louder volume",
                     "textcolor": [ 0.0, 0.0, 0.0, 1.0 ]
                 }
             },
@@ -1162,9 +1183,9 @@
                     "maxclass": "newobj",
                     "numinlets": 1,
                     "numoutlets": 1,
-                    "outlettype": [ "" ],
-                    "patching_rect": [ 431.0, -4.0, 70.0, 22.0 ],
-                    "text": "loadmess 1"
+                    "outlettype": [ "bang" ],
+                    "patching_rect": [ 431.0, -4.0, 68.0, 22.0 ],
+                    "text": "loadbang 1"
                 }
             },
             {
@@ -1427,7 +1448,7 @@
                     "outlettype": [ "" ],
                     "patching_rect": [ 516.0, 72.69491648674011, 187.0, 22.0 ],
                     "saved_object_attributes": {
-                        "client_rect": [ 100, 134, 454, 262 ],
+                        "client_rect": [ 100, 134, 813, 509 ],
                         "parameter_enable": 0,
                         "parameter_mappable": 0,
                         "storage_rect": [ 583, 69, 1034, 197 ]
@@ -1444,6 +1465,22 @@
                     "numoutlets": 4,
                     "outlettype": [ "", "", "", "" ],
                     "patching_rect": [ 511.0, -4.0, 56.0, 22.0 ],
+                    "restore": {
+                        "cycle1-gain": [ 80 ],
+                        "cycle2-gain": [ 114 ],
+                        "cycle3-gain": [ 63 ],
+                        "freq-cutoff": [ 831 ],
+                        "key-select": [ 1 ],
+                        "live.dial": [ -10.000000000000021 ],
+                        "live.gain~": [ -10.0 ],
+                        "pitch-smooth": [ 10 ],
+                        "ramp": [ 50 ],
+                        "rect1-gain": [ 75 ],
+                        "rect2-gain": [ 59 ],
+                        "rect3-gain": [ 86 ],
+                        "resonance": [ 0.73 ],
+                        "saw-gain": [ 63 ]
+                    },
                     "text": "autopattr",
                     "varname": "u204000329"
                 }
@@ -2039,6 +2076,12 @@
             },
             {
                 "patchline": {
+                    "destination": [ "obj-37", 0 ],
+                    "source": [ "obj-21", 0 ]
+                }
+            },
+            {
+                "patchline": {
                     "destination": [ "obj-31", 0 ],
                     "source": [ "obj-24", 0 ]
                 }
@@ -2087,12 +2130,6 @@
                 "patchline": {
                     "destination": [ "obj-33", 0 ],
                     "source": [ "obj-30", 0 ]
-                }
-            },
-            {
-                "patchline": {
-                    "destination": [ "obj-97", 0 ],
-                    "source": [ "obj-31", 0 ]
                 }
             },
             {
@@ -2512,6 +2549,26 @@
                 }
             }
         ],
+        "parameters": {
+            "obj-21": [ "live.dial", ".", 0 ],
+            "obj-33": [ "rect1-gain", "rect1-gain", 0 ],
+            "obj-37": [ "live.gain~", "live.gain~", 0 ],
+            "obj-38": [ "rect2-gain", "rect2-gain", 0 ],
+            "obj-53": [ "cycle1-gain", "cycle1-gain", 0 ],
+            "obj-54": [ "saw-gain", "saw-gain", 0 ],
+            "obj-61": [ "cycle3-gain", "cycle3-gain", 0 ],
+            "obj-7": [ "cycle2-gain", "cycle2-gain", 0 ],
+            "obj-98": [ "rect1-gain[1]", "rect1-gain[1]", 0 ],
+            "parameterbanks": {
+                "0": {
+                    "index": 0,
+                    "name": "",
+                    "parameters": [ "-", "-", "-", "-", "-", "-", "-", "-" ],
+                    "buttons": [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+                }
+            },
+            "inherited_shortname": 1
+        },
         "autosave": 0,
         "styles": [
             {

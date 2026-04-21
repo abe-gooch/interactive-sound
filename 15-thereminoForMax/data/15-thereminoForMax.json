@@ -1,0 +1,45 @@
+{
+    "pattrstorage": {
+        "name": "15-thereminoForMax",
+        "slots": {
+            "1": {
+                "id": 1,
+                "data": {
+                    "cycle1-gain": [ 80 ],
+                    "cycle2-gain": [ 114 ],
+                    "cycle3-gain": [ 63 ],
+                    "freq-cutoff": [ 831 ],
+                    "key-select": [ 1 ],
+                    "live.gain~": [ -10.0 ],
+                    "pitch-smooth": [ 10 ],
+                    "ramp": [ 50 ],
+                    "rect1-gain": [ 75 ],
+                    "rect2-gain": [ 59 ],
+                    "rect3-gain": [ 86 ],
+                    "resonance": [ 0.73 ],
+                    "saw-gain": [ 63 ],
+                    "live.dial": [ -10.000000000000021 ]
+                }
+            },
+            "2": {
+                "id": 2,
+                "data": {
+                    "cycle1-gain": [ 98 ],
+                    "cycle2-gain": [ 114 ],
+                    "cycle3-gain": [ 65 ],
+                    "freq-cutoff": [ 0 ],
+                    "key-select": [ 0 ],
+                    "live.gain~": [ 0.0 ],
+                    "pitch-smooth": [ 10 ],
+                    "ramp": [ 50 ],
+                    "rect1-gain": [ 83 ],
+                    "rect2-gain": [ 67 ],
+                    "rect3-gain": [ 104 ],
+                    "resonance": [ 0.0 ],
+                    "saw-gain": [ 69 ],
+                    "live.dial": []
+                }
+            }
+        }
+    }
+}
